@@ -19,7 +19,7 @@ export const StartPage = () => {
         <div>
             {loading ? (
                 <div>
-                    <iframe src="https://giphy.com/embed/xT9DPldJHzZKtOnEn6" frameBorder="0" width="480" height="500" className="loadingGif" allowFullScreen></iframe>
+                    <iframe title="startGif" src="https://giphy.com/embed/xT9DPldJHzZKtOnEn6" frameBorder="0" width="480" height="500" className="loadingGif" allowFullScreen></iframe>
                 </div>
             ) : ( 
                 <div className='profile-page'>
