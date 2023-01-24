@@ -24,6 +24,7 @@
   padding-top: 10px;
   padding-bottom: 10px;
   background-image: url("image/bluish.jpeg");
+  background-size: 150%;
   text-shadow: 1px 1px whitesmoke;
 }
 
@@ -31,6 +32,7 @@
   padding-top: 10px;
   padding-bottom: 10px;
   background-image: url("image/green2.jpeg");
+  background-size: 120%;
   text-shadow: 1px 1px whitesmoke;
 }
 
