@@ -2,16 +2,188 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.welcome-message {
+  text-align: center;
+  font-family: 'futura', monospace;
+  text-shadow: 1px 1px whitesmoke;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.topSection {
+  padding-top: 10px;
+  background-image: url("image/yellowish.jpeg");
 }
+
+.aboutSection {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-image: url("image/jazzberry.jpeg");
+  text-shadow: 1px 1px whitesmoke;
+}
+
+.skillSection {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-image: url("image/bluish.jpeg");
+  text-shadow: 1px 1px whitesmoke;
+}
+
+.connectSection {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-image: url("image/green2.jpeg");
+  text-shadow: 1px 1px whitesmoke;
+}
+
+.loadingGif {
+  display: flex;
+  margin: 0 auto;
+}
+
+.navbar {
+  position: sticky;
+  height: 100px;
+  width: auto;
+  text-align: center;
+  background-color: rgb(221, 160, 221, 0.5);
+  display: flex;
+}
+
+.about,
+.skill,
+.connect {
+  position: sticky;
+  margin: auto;
+}
+
+.about {
+  margin-left: auto;
+  margin-right: 50px;
+}
+
+.skill {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.connect {
+  margin-left: 50px;
+  margin-right: auto;
+}
+
+.about svg,
+.skill svg,
+.connect svg {
+  width: 25px;
+}
+
+.skill svg {
+  padding-top: 10px;
+  padding-bottom: 7px;
+}
+
+.connect svg {
+  padding-top: 5px;
+  padding-bottom: 7px;
+}
+
+.navbar a {
+  font-family: 'futura';
+  padding:70px;
+  color: black;
+  position: sticky;
+}
+
+.aboutCircle {
+  position: sticky;
+  display: flex;
+  width: 750px;
+  height: 500px;
+  background-color: rgb(255, 183, 178, 0.8);
+  border-radius: 50%;
+  margin: auto;
+  
+}
+
+.skillCircle {
+  position: sticky;
+  display: flex;
+  width: 750px;
+  height: 500px;
+  background-color: rgb(199, 206, 234, 0.8);
+  border-radius: 50%;
+  margin: auto;
+}
+
+.aboutText {
+  position: sticky;
+  margin: auto;
+  margin-left: 80px;
+  margin-right: 80px;
+  font-family: 'futura';
+}
+
+.skillText {
+  position: sticky;
+  margin: auto;
+  margin-left: 80px;
+  margin-right: 80px;
+  font-family: 'futura';
+}
+
+.linkedinCircle,
+.githubCircle,
+.instagramCircle {
+  position: center;
+  display: flex;
+  width: 150px;
+  height: 150px;
+  background-color: rgb(226, 240, 203, 0.5);
+  border-radius: 50%;
+  margin: auto;
+}
+
+.github svg,
+.linkedin svg,
+.instagram svg {
+  width: 45px;
+}
+
+.github,
+.linkedin,
+.instagram {
+  margin: auto;
+  font-family: 'futura';
+  position: sticky;
+}
+
+.github {
+  margin-left: auto;
+  margin-right: 50px;
+}
+
+.linkedin {
+  margin-left: 48px;
+  margin-right: 0px;
+}
+
+.instagram {
+  margin-left: 40px;
+  margin-right: auto;
+}
+
+.connectPart {
+  text-align: center;
+  display: flex;
+  padding-bottom: 50px;
+}
+
+.connectSection h1,
+.skillSection h1,
+.aboutSection h1 {
+  font-family: 'futura';
+  margin-left: 10px;
+}
+
 
 .App-header {
   background-color: #282c34;
@@ -24,15 +196,3 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
