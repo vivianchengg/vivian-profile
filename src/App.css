@@ -24,15 +24,15 @@
   padding-top: 10px;
   padding-bottom: 10px;
   background-image: url("image/bluish.jpeg");
-  background-size: 150%;
+  background-size: cover;
   text-shadow: 1px 1px whitesmoke;
 }
 
 .connectSection {
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: auto;
   background-image: url("image/green2.jpeg");
-  background-size: 120%;
+  background-size: cover;
   text-shadow: 1px 1px whitesmoke;
 }
 
@@ -96,7 +96,7 @@
 }
 
 .aboutCircle {
-  position: sticky;
+  position: relative;
   display: flex;
   width: 750px;
   height: 500px;
