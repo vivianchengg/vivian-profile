@@ -63,7 +63,7 @@
 
 .about {
   margin-left: auto;
-  margin-right: 40px;
+  margin-right: auto;
 }
 
 .skill {
@@ -72,7 +72,7 @@
 }
 
 .connect {
-  margin-left: 40px;
+  margin-left: auto;
   margin-right: auto;
 }
 
@@ -141,8 +141,8 @@
 .instagramCircle {
   position: center;
   display: flex;
-  width: 150px;
-  height: 150px;
+  width: 120px;
+  height: 120px;
   background-color: rgb(226, 240, 203, 0.5);
   border-radius: 50%;
   margin: auto;
@@ -164,16 +164,16 @@
 
 .github {
   margin-left: auto;
-  margin-right: 50px;
+  margin-right: 35px;
 }
 
 .linkedin {
-  margin-left: 45px;
+  margin-left: 33px;
   margin-right: 0px;
 }
 
 .instagram {
-  margin-left: 40px;
+  margin-left: 25px;
   margin-right: auto;
 }
 
